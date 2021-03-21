@@ -581,7 +581,7 @@ public abstract class CameraActivity extends AppCompatActivity
     if (v.getId() == R.id.plus) {
       String threads = threadsTextView.getText().toString().trim();
       int numThreads = Integer.parseInt(threads);
-      if (numThreads >= 9) return;
+      if (numThreads >= 20) return;
       numThreads++;
       threadsTextView.setText(String.valueOf(numThreads));
       setNumThreads(numThreads);
